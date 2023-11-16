@@ -1,0 +1,21 @@
+{
+  "name": "anirrent-discord",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^8.53.0",
+    "bun-types": "latest",
+    "eslint": "^8.53.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
